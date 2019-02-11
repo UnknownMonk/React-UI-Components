@@ -17,6 +17,7 @@ const Footer = () => {
         size="lg"
         icon={['far', 'comment']}
       />
+
       <FontAwesomeIcon
         onClick={() => {
           console.log('this is working');
