@@ -10,10 +10,34 @@ library.add(far, fas);
 const Footer = () => {
   return (
     <div className="footer">
-      <FontAwesomeIcon size="lg" icon={['far', 'comment']} />
-      <FontAwesomeIcon size="lg" icon={['fas', 'sync']} />
-      <FontAwesomeIcon size="lg" icon={['far', 'heart']} />
-      <FontAwesomeIcon size="lg" icon={['far', 'envelope']} />
+      <FontAwesomeIcon
+        onClick={() => {
+          console.log('this is working');
+        }}
+        size="lg"
+        icon={['far', 'comment']}
+      />
+      <FontAwesomeIcon
+        onClick={() => {
+          console.log('this is working');
+        }}
+        size="lg"
+        icon={['fas', 'sync']}
+      />
+      <FontAwesomeIcon
+        onClick={() => {
+          console.log('this is working');
+        }}
+        size="lg"
+        icon={['far', 'heart']}
+      />
+      <FontAwesomeIcon
+        onClick={() => {
+          console.log('this is working');
+        }}
+        size="lg"
+        icon={['far', 'envelope']}
+      />
     </div>
   );
 };
